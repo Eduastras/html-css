@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(226, 254, 255);
+            margin: 0px;
+
+        }
+        header {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: inset 2px 2px 2px 2px black;
+        }
+
+        nav{
+            background-color: lightgoldenrodyellow;
+            padding: 3px;
+            box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.288);
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 4px 7px 0px rgba(0, 0, 0, 0.329)
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        
+        article > aside {
+            background-color: rgb(90, 89, 89);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        .videos{
+            text-align: center;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ratione mollitia sint aut numquam iste nemo sequi deleniti, voluptatum vitae, vero accusantium deserunt quae, aspernatur quisquam eveniet. Ad, laborum magnam?</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolores officia quidem asperiores fugit doloremque et similique rem suscipit! Amet enim aliquid id dicta voluptates natus minus nobis quis necessitatibus?</p>
+                <aside>
+                    <p>Artigo escrito por Eduastra</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    <!---<section id="musicas">
+            <h2>Músicas em alta</h2>
+                <div class="videos">
+                    <iframe width="300" height="300" src="https://www.youtube.com/embed/u9cV06U1vAs?si=-ydPW9ZIaBx1L-eh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="300" height="300" src="https://www.youtube.com/embed/8a1x61xjfdk?si=8OXFT2bFvqetfnEf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="300" height="300" src="https://www.youtube.com/embed/emUj_PCqRQs?si=xWuRkPMF3RW1ah1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            -->
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Eduastra</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
