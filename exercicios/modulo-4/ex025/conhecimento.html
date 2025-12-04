@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Conhecimento</title>
+</head>
+<body>
+    <h1>Teste</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="ilogin">Login: </label>
+            <input type="text" name="Login" id="ilogin" required minlength="5" maxlength="30" size="8" placeholder="Insira seu Login" autocomplete="username">
+        </p>
+
+        <p>
+            <label for="isenha">Senha: </label>
+            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="5" placeholder="Insira sua senha" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Entrar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="idata">Data de Nascimento:</label>
+            <input type="date" name="data" id="idata" required value="2025-12-04" autocomplete="">
+        </p>
+        <p>
+            <label for="inumero">Número:</label>
+            <input type="number" name="numero" id="inumero" required min="1" max="100" autocomplete="">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+
+    </form>
+</body>
+</html>
