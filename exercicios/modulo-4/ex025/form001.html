@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php"  method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+
+
+    <h1>Segundo formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="id-login">Login:</label> 
+            <input type="text" name="name-login" id="id-login"> 
+        </p>
+        <p><label for="id-senha">Senha:</label> 
+            <input type="text" name="name-senha" id="id-senha">
+        </p>
+        <p><input type="submit" value="Entrar"></p>
+
+    </form>
+</body>
+</html>
