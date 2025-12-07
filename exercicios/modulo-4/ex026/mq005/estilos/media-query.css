@@ -18,3 +18,24 @@
         max-width: 800px;
     }
 }
+
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    span#burguer {
+    display: none;
+
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+        
+    }
+
+    main {
+        max-width: 800px;
+    }  
+}
