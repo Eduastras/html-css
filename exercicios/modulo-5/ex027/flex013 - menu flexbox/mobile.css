@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+header, header > nav {
+   flex-flow: column nowrap;
+}
+
+header h1 {
+    flex-basis: 50px;
+}
+
+header nav {
+    width: 90%;
+    align-items: center;
+}
+
+header nav a {
+    width: 100%;
+}
+
+header nav span#burguer {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
